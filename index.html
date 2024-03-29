@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <title>GAZA RELIEF</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+      <nav
+        class="p-5 px-10 md:px-28 bg-black shadow md:flex md:items-center md:justify-between top-0 fixed w-full z-50 transition-all ease-in duration-500"
+      >
+        <div class="flex justify-between items-center">
+          <span
+            class="text-3xl font-bold font-[Poppins] text-white cursor-pointer"
+          >
+            <img class="w-12 h-12 rounded-full inline" src="Logo1.jpeg" />
+            ICG
+          </span>
+
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon
+              class="text-white"
+              name="menu"
+              onclick="Menu(this)"
+            ></ion-icon>
+          </span>
+        </div>
+
+        <ul
+          class="md:flex max-md:h-screen max-md:bg-black pl-28 text-white md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        >
+          <li class="mx-4 my-6 md:my-0">
+            <a href="" class="hover:text-[#FF9700] font-mono duration-500"
+              >HOME</a
+            >
+          </li>
+          <li class="mx-4 my-6 md:my-0" onclick="Menu(this)">
+            <a
+              href="#why-donate"
+              class="hover:text-[#FF9700] font-mono duration-500"
+              >Why Donate
+            </a>
+          </li>
+          <li class="mx-4 my-6 md:my-0" onclick="Menu(this)">
+            <a
+              href="#who-we-are"
+              class="hover:text-[#FF9700] font-mono duration-500"
+              >Who We Are</a
+            >
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/icg_community_guidance?igsh=MzRlODBiNWFlZA=="
+              class="hover:text-[#FF9700] font-mono duration-500"
+              >CONTACT US</a
+            >
+          </li>
+
+          <button
+            class="bg-[#FF9700] md:hidden text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded"
+          >
+            <a href="#"> Donate Now </a>
+          </button>
+          <h2 class=""></h2>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="pt-[87px]">
+      <section class="hero">
+        <div class="content">
+          <h2 class="text-4xl mb-3 font-mono">
+            International Community Guidance
+          </h2>
+          <h3 class="text-sm font-mono">
+            Join us in making a difference by contributing to our cause. Your
+            donation will help us to continue our important work and make a
+            positive impact in the community.
+          </h3>
+          <div class="buttons flex justify-center gap-16">
+            <button
+              class="bg-[#FF9700] px-5 py-3 max-md:px-20 rounded-xl text-black font-mono font-extralight"
+            >
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Donate Now</a
+              >
+            </button>
+            <button
+              class="bg-transparent max-md:hidden px-5 py-3 rounded-xl text-white font-mono border-white border-2 font-extralight"
+            >
+              <a
+                href="https://www.instagram.com/icg_community_guidance?igsh=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn More
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex bg-gray-100 justify-between max-md:flex-col max-md:gap-5 pl-10 md:pl-20 pr-[200px] py-[50px]"
+        id="why-donate"
+      >
+        <div class="flex flex-col">
+          <h1
+            class="min-w-[320px] text-2xl font-bold text-start font-[Poppins]"
+          >
+            Feed Gaza: Urgent Relief for Families in Need
+          </h1>
+          <p class="min-w-[320px] text-start max-w-[670px] mt-5 font-[Poppins]">
+            In Gaza, families are facing urgent food shortages, and we need your
+            help to provide immediate relief. Your donation to the "Feed Gaza"
+            campaign will go directly towards purchasing essential food supplies
+            for those struggling to feed their loved ones. The situation in Gaza
+            is dire, with many families unable to access nutritious meals on a
+            daily basis. With your support, we can make a difference by ensuring
+            that no one goes hungry during these challenging times. Every
+            donation, no matter the amount, will have a direct impact on the
+            lives of those in need. Together, we can provide sustenance, hope,
+            and dignity to families in Gaza. Join us in this urgent effort to
+            support families in need. Your generosity will make a tangible
+            difference in the lives of those who need it most. Donate now to
+            feed families in Gaza and help us provide essential relief to those
+            facing hunger.
+          </p>
+        </div>
+        <div
+          class="min-w-[300px] flex flex-col gap-5 h-[463px] rounded-2xl overflow-hidden border-[#EDEDED] border-[1px]"
+        >
+          <img class="h-3/5" src="Card.Webp" alt="" class="w-full h-full" />
+          <h2 class="text-center font-[Poppins] tracking-wide font-normal">
+            Changing the World
+          </h2>
+          <p class="text-center font-[Poppins] text-sm font-thin">
+            Your Contribution Matters
+          </p>
+          <button
+            class="bg-black w-[150px] self-center px-5 py-3 rounded-xl text-white font-mono font-extralight"
+          >
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Donate Now</a
+            >
+          </button>
+        </div>
+      </section>
+      <section
+        class="flex max-md:flex-col justify-between pl-[150px] pr-40 py-5"
+      >
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <img
+            class="w-48 h-24"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt=""
+          />
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <img
+            class="w-48 h-24"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/4a/GoFundMe_logo.svg"
+            alt=""
+          />
+        </a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <img
+            class="w-48 h-24"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt=""
+          />
+        </a>
+      </section>
+      <section class="bg-gray-100 pl-20 pr-[200px] py-[50px]" id="who-we-are">
+        <div class="container mx-auto flex items-center justify-center my-8">
+          <div class="w-1/2 mx-4 h-[364px]">
+            <div class="text-center">
+              <h2 class="text-3xl font-bold mb-4">About Us</h2>
+              <p class="text-gray-700 text-center">
+                At International Community Guidance (ICG), our mission is to
+                provide unwavering support and guidance to refugees,
+                particularly women, as they navigate the challenges of
+                resettlement in the United States. With a dedicated focus on
+                empowering women and fostering community integration, we strive
+                to create a welcoming environment where all refugees can thrive
+                and build fulfilling lives. Additionally, we are committed to
+                extending our impact beyond U.S. borders by collecting charity
+                to assist people in need overseas. Through tailored programs,
+                advocacy, and charitable initiatives, we aim to equip
+                individuals with the resources and support necessary to overcome
+                obstacles and achieve their full potential, both locally and
+                globally. Together, we are dedicated to fostering a world where
+                every refugee, especially women, is embraced with dignity,
+                respect, and the opportunity to flourish, regardless of
+                geographical boundaries.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="w-1/2 mx-4 h-[364px]">
+            <div class="text-center">
+              <h2 class="text-3xl font-bold mb-4">Our Team</h2>
+              <p class="text-gray-700">
+                At International Community Guidance (ICG), our mission is to
+                provide unwavering support and guidance to refugees,
+                particularly women, as they navigate the challenges of
+                resettlement in the United States. With a dedicated focus on
+                empowering women and fostering community integration, we strive
+                to create a welcoming environment where all refugees can thrive
+                and build fulfilling lives. Additionally, we are committed to
+                extending our impact beyond U.S. borders by collecting charity
+                to assist people in need overseas. Through tailored programs,
+                advocacy, and charitable initiatives, we aim to equip
+                individuals with the resources and support necessary to overcome
+                obstacles and achieve their full potential, both locally and
+                globally. Together, we are dedicated to fostering a world where
+                every refugee, especially women, is embraced with dignity,
+                respect, and the opportunity to flourish, regardless of
+                geographical boundaries.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-full h-20 bg-black flex items-center text-white">
+      <div class="container mx-auto text-center">
+        <p>
+          &copy; 2021 International Community Guidance. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+</html>
